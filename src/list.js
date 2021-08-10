@@ -21,6 +21,7 @@ const list = () =>{
 
     return(
         <div>
+            {/* //fsdfsdfsdf */}
             <input onChange={createElement} value={input.text}></input>
             <button onClick={addElement}>Add</button>
             {list.map((i)=><div key={i.id}>{i.text}
